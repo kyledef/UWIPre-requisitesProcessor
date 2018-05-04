@@ -1,0 +1,246 @@
+# Sample No 1 : P = 2
+(Undergraduate level AGBU 1005 Minimum Grade of D or Undergraduate level AM 15A Minimum Grade of D) and (Undergraduate level AGBU 1006 Minimum Grade of D or (Undergraduate level AM 15B Minimum Grade of D) and Undergraduate level AGRI 1004 Minimum Grade of D or Undergraduate level AG 15B Minimum Grade of D)
+
+(
+    Undergraduate level AGBU 1005 Minimum Grade of D 
+    or 
+    Undergraduate level AM 15A Minimum Grade of D
+) 
+and 
+(
+    Undergraduate level AGBU 1006 Minimum Grade of D 
+    or 
+    (Undergraduate level AM 15B Minimum Grade of D) 
+    and
+    Undergraduate level AGRI 1004 Minimum Grade of D 
+    or 
+    Undergraduate level AG 15B Minimum Grade of D
+)
+
+
+# Sample No 2 : P=6
+(Undergraduate level PHYS 1110 Minimum Grade of D and Undergraduate level PHYS 1111 Minimum Grade of D) or (Undergraduate level PHYS 1211 Minimum Grade of D and Undergraduate level PHYS 1212 Minimum Grade of D and Undergraduate level PHYS 1213 Minimum Grade of D and Undergraduate level PHYS 1214 Minimum Grade of D and Undergraduate level PHYS 1215 Minimum Grade of D and Undergraduate level PHYS 1216 Minimum Grade of D) or (Undergraduate level PHYS 1221 Minimum Grade of C and Undergraduate level PHYS 1222 Minimum Grade of C and Undergraduate level PHYS 1223 Minimum Grade of C and Undergraduate level PHYS 1224 Minimum Grade of C)
+
+(
+    Undergraduate level PHYS 1110 Minimum Grade of D 
+    and 
+    Undergraduate level PHYS 1111 Minimum Grade of D
+) 
+or 
+(
+    Undergraduate level PHYS 1211 Minimum Grade of D 
+    and 
+    Undergraduate level PHYS 1212 Minimum Grade of D 
+    and 
+    Undergraduate level PHYS 1213 Minimum Grade of D 
+    and 
+    Undergraduate level PHYS 1214 Minimum Grade of D 
+    and 
+    Undergraduate level PHYS 1215 Minimum Grade of D 
+    and 
+    Undergraduate level PHYS 1216 Minimum Grade of D
+) 
+or 
+(
+    Undergraduate level PHYS 1221 Minimum Grade of C 
+    and 
+    Undergraduate level PHYS 1222 Minimum Grade of C 
+    and 
+    Undergraduate level PHYS 1223 Minimum Grade of C 
+    and 
+    Undergraduate level PHYS 1224 Minimum Grade of C
+)
+
+# Sample No 3 : P=23
+subject = df['SUBJ_CODE'] == "NURS"
+code = df['CRSE_NUMB'] == 3013
+
+(Undergraduate level FOUN 1101 Minimum Grade of D and Undergraduate level NURS 1112 Minimum Grade of D and Undergraduate level NURS 1116 Minimum Grade of D and Undergraduate level NURS 2011 Minimum Grade of D and Undergraduate level NURS 2013 Minimum Grade of D and Undergraduate level NURS 2014 Minimum Grade of D and Undergraduate level NURS 2015 Minimum Grade of D and Undergraduate level NURS 2016 Minimum Grade of D and Undergraduate level NURS 2017 Minimum Grade of D and Undergraduate level NURS 2018 Minimum Grade of D and Undergraduate level NURS 2019 Minimum Grade of D and Undergraduate level NURS 2020 Minimum Grade of D and Undergraduate level SOCI 1005 Minimum Grade of D) and (Undergraduate level FOUN 1001 Minimum Grade of D or Undergraduate level NURS 1004 Minimum Grade of D) and (Undergraduate level NURS 1109 Minimum Grade of D or Undergraduate level NURS 1114 Minimum Grade of D or Undergraduate level GENH 1001 Minimum Grade of D) and (Undergraduate level NURS 1110 Minimum Grade of D or Undergraduate level NURS 1003 Minimum Grade of D) and (Undergraduate level NURS 1111 Minimum Grade of D or Undergraduate level NURS 2007 Minimum Grade of D) and (Undergraduate level NURS 1113 Minimum Grade of D or Undergraduate level NURS 1002 Minimum Grade of D) and (Undergraduate level NURS 1115 Minimum Grade of D or Undergraduate level GENH 1002 Minimum Grade of D) and (Undergraduate level NURS 2010 Minimum Grade of D or Undergraduate level NURS 1001 Minimum Grade of D) and (Undergraduate level PSYC 1000 Minimum Grade of D or Undergraduate level NURS 1007 Minimum Grade of D) and (Undergraduate level NURS 2012 Minimum Grade of D or Undergraduate level GENH 1003 Minimum Grade of D) and (Undergraduate level SOCI 1002 Minimum Grade of D or Undergraduate level NURS 1006 Minimum Grade of D)
+
+(
+    Undergraduate level FOUN 1101 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 1112 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 1116 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2011 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2013 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2014 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2015 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2016 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2017 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2018 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2019 Minimum Grade of D 
+    and 
+    Undergraduate level NURS 2020 Minimum Grade of D 
+    and 
+    Undergraduate level SOCI 1005 Minimum Grade of D
+) 
+and (
+    Undergraduate level FOUN 1001 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1004 Minimum Grade of D
+) 
+and (
+    Undergraduate level NURS 1109 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1114 Minimum Grade of D 
+    or 
+    Undergraduate level GENH 1001 Minimum Grade of D
+) and (
+    Undergraduate level NURS 1110 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1003 Minimum Grade of D
+) and (
+    Undergraduate level NURS 1111 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 2007 Minimum Grade of D
+) and (
+    Undergraduate level NURS 1113 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1002 Minimum Grade of D
+) and (
+    Undergraduate level NURS 1115 Minimum Grade of D 
+    or 
+    Undergraduate level GENH 1002 Minimum Grade of D
+) and (
+    Undergraduate level NURS 2010 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1001 Minimum Grade of D
+) and (
+    Undergraduate level PSYC 1000 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1007 Minimum Grade of D
+) and (
+    Undergraduate level NURS 2012 Minimum Grade of D 
+    or 
+    Undergraduate level GENH 1003 Minimum Grade of D
+) and (
+    Undergraduate level SOCI 1002 Minimum Grade of D 
+    or 
+    Undergraduate level NURS 1006 Minimum Grade of D
+)
+
+# Sample No 4 : P=3
+subject = df['SUBJ_CODE'] == "AGBU"
+code = df['CRSE_NUMB'] == 2002
+
+(Undergraduate level AGBU 1005 Minimum Grade of D or Undergraduate level AM 15A Minimum Grade of D and Undergraduate level AG 15B Minimum Grade of D or Undergraduate level AGBU 1005 Minimum Grade of C) or (Undergraduate level AGBU 1006 Minimum Grade of D and Undergraduate level AM 15B Minimum Grade of D or Undergraduate level AGBU 1006 Minimum Grade of C or Undergraduate level ECON 1001 Minimum Grade of D or Undergraduate level ECON 1001 Minimum Grade of C) and (Undergraduate level ECON 1002 Minimum Grade of D or Undergraduate level ECON 1002 Minimum Grade of C)
+
+
+(
+    Undergraduate level AGBU 1005 Minimum Grade of D 
+    or 
+    Undergraduate level AM 15A Minimum Grade of D 
+    and 
+    Undergraduate level AG 15B Minimum Grade of D 
+    or 
+    Undergraduate level AGBU 1005 Minimum Grade of C
+) 
+or 
+(
+    Undergraduate level AGBU 1006 Minimum Grade of D 
+    and 
+    Undergraduate level AM 15B Minimum Grade of D 
+    or 
+    Undergraduate level AGBU 1006 Minimum Grade of C 
+    or 
+    Undergraduate level ECON 1001 Minimum Grade of D 
+    or 
+    Undergraduate level ECON 1001 Minimum Grade of C
+) 
+and 
+(
+    Undergraduate level ECON 1002 Minimum Grade of D 
+    or 
+    Undergraduate level ECON 1002 Minimum Grade of C
+)
+
+
+# Sample No 5 : P=20
+subject = df['SUBJ_CODE'] == "ECON"
+code = df['CRSE_NUMB'] == 2000
+
+(Undergraduate level ECON 1001 Minimum Grade of D or Undergraduate level ECON 1001 Minimum Grade of C or Undergraduate level EC 10C Minimum Grade of D or Undergraduate level EC 10A Minimum Grade of D or Undergraduate level EC 10D Minimum Grade of D or Undergraduate level AGBU 1005 Minimum Grade of C or Undergraduate level AGBU 1005 Minimum Grade of D or Undergraduate level AM 15A Minimum Grade of D) and (Undergraduate level ECON 1002 Minimum Grade of D or Undergraduate level ECON 1002 Minimum Grade of C or Undergraduate level EC 10E Minimum Grade of D or Undergraduate level EC 10B Minimum Grade of D or Undergraduate level EC 10F Minimum Grade of D or Undergraduate level AGBU 1006 Minimum Grade of D or Undergraduate level AGBU 1006 Minimum Grade of C or Undergraduate level AM 15B Minimum Grade of D) and (Undergraduate level ECON 1004 Minimum Grade of D or Undergraduate level ECON 1003 Minimum Grade of C or Undergraduate level EC 14C Minimum Grade of D or Undergraduate level EC 14A Minimum Grade of D or Undergraduate level EC 14E Minimum Grade of D or Undergraduate level AGRI 1003 Minimum Grade of D or Undergraduate level AGRI 1003 Minimum Grade of C or Undergraduate level AG 14C Minimum Grade of D or Undergraduate level MATH 1140 Minimum Grade of D or Undergraduate level MATH 1140 Minimum Grade of C or Undergraduate level M 12A Minimum Grade of D) or (GCEA Mathematics (Int) A or GCEA Mathematics 'C' A) or (GCEAS Additional Mathematics A or GCEAO Additional Mathematics A or GCEAS Higher Mathematics A or GCEAS Further Mathematics A or GCEAS Mathematics (Pure & App) A or GCEAS Mathematics (Pure) A or GCEAS Mathematics 'C' A or GCEAS Mathematics (Int) A) or (CAPE Mathematics Unit 1 1 and CAPE Mathematics Unit 2 1) or (CAPE Pure Mathematics Unit 1 1 and CAPE Pure Mathematics Unit 2 1) or (CAPE Applied Maths Unit 1 1 and CAPE Applied Maths Unit 2 1)
+
+(
+    Undergraduate level ECON 1001 Minimum Grade of D or Undergraduate level ECON 1001 Minimum Grade of C 
+    or 
+    Undergraduate level EC 10C Minimum Grade of D or Undergraduate level EC 10A Minimum Grade of D 
+    or 
+    Undergraduate level EC 10D Minimum Grade of D or Undergraduate level AGBU 1005 Minimum Grade of C 
+    or 
+    Undergraduate level AGBU 1005 Minimum Grade of D or Undergraduate level AM 15A Minimum Grade of D
+) 
+and 
+(
+    Undergraduate level ECON 1002 Minimum Grade of D or Undergraduate level ECON 1002 Minimum Grade of C 
+    or 
+    Undergraduate level EC 10E Minimum Grade of D or Undergraduate level EC 10B Minimum Grade of D 
+    or 
+    Undergraduate level EC 10F Minimum Grade of D or Undergraduate level AGBU 1006 Minimum Grade of D 
+    or 
+    Undergraduate level AGBU 1006 Minimum Grade of C or Undergraduate level AM 15B Minimum Grade of D
+)
+and 
+(
+    Undergraduate level ECON 1004 Minimum Grade of D or Undergraduate level ECON 1003 Minimum Grade of C 
+    or
+    Undergraduate level EC 14C Minimum Grade of D or Undergraduate level EC 14A Minimum Grade of D 
+    or 
+    Undergraduate level EC 14E Minimum Grade of D or Undergraduate level AGRI 1003 Minimum Grade of D 
+    or 
+    Undergraduate level AGRI 1003 Minimum Grade of C or Undergraduate level AG 14C Minimum Grade of D 
+    or 
+    Undergraduate level MATH 1140 Minimum Grade of D or Undergraduate level MATH 1140 Minimum Grade of C 
+    or 
+    Undergraduate level M 12A Minimum Grade of D
+) 
+or 
+(
+    GCEA Mathematics (Int) A 
+    or 
+    GCEA Mathematics 'C' A
+) 
+or 
+(
+    GCEAS Additional Mathematics A 
+    or 
+    GCEAO Additional Mathematics A 
+    or 
+    GCEAS Higher Mathematics A 
+    or 
+    GCEAS Further Mathematics A 
+    or 
+    GCEAS Mathematics (Pure & App) A 
+    or 
+    GCEAS Mathematics (Pure) A 
+    or 
+    GCEAS Mathematics 'C' A 
+    or 
+    GCEAS Mathematics (Int) A) 
+    or 
+    (
+        CAPE Mathematics Unit 1 1 
+        and 
+        CAPE Mathematics Unit 2 1
+    ) 
+    or 
+    (
+        CAPE Pure Mathematics Unit 1 1 
+        and CAPE Pure Mathematics Unit 2 1
+    ) 
+    or 
+    (
+        CAPE Applied Maths Unit 1 1 
+        and 
+        CAPE Applied Maths Unit 2 1
+    )
